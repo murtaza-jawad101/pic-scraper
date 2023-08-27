@@ -1,4 +1,4 @@
-# Rolex Watch Image Scraper
+# Rolex Watch Image Scraper ⌚
 
 This repository contains a Python script that uses Selenium and BeautifulSoup to scrape images of Rolex watches from their official website. The script opens each URL, extracts image URLs using BeautifulSoup, and then downloads and saves the images locally.
 
