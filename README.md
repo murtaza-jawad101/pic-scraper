@@ -15,13 +15,13 @@ This repository contains a Python script that uses Selenium and BeautifulSoup to
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/murtaza-jawad101/pic-scraper.git
+   git clone https://github.com/murtaza-jawad101/rolex-pic-scraper.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd pic-scraper
+   cd rolex-pic-scraper
    ```
 
 3. Install the Chrome WebDriver using the `webdriver_manager`:
@@ -31,7 +31,7 @@ This repository contains a Python script that uses Selenium and BeautifulSoup to
 
 ## Usage
 
-1. Place your CSV file named `crownProds.csv` in the same directory as the script `crownScraper.py`.
+1. Place your CSV file named `crownProds.csv` in the same directory as the script `crownScraper.py`. Make sure to check if your CSV file is correctly formatted and includes the necessary Rolex watch URLs.
 
 2. Open the script file `crownScraper.py` and adjust any necessary settings or parameters if needed.
 
@@ -47,7 +47,7 @@ This repository contains a Python script that uses Selenium and BeautifulSoup to
 
 You can modify the following parameters in the script to customize its behavior:
 
-- `options.add_argument('--headless')`: Enables headless mode for the Chrome WebDriver. If you want to see the browser in action, you can remove this line.
+- `options.add_argument('--headless')`: Enables headless mode for the Chrome WebDriver. If you want to see the browser in action, you can remove this line. There are other options to customize the browsers behavior that you can use with .add_argument().
 
 - `time.sleep(5)`: Adjust the sleep time as needed to ensure the page loads properly before extracting data.
 
@@ -55,12 +55,4 @@ You can modify the following parameters in the script to customize its behavior:
 
 - You can customize the column names used to access URLs and image names from the CSV file if your CSV structure is different.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
-
-Make sure to check if your CSV file is correctly formatted and includes the necessary Rolex watch URLs. Replace the existing contents of the `README.md` file in your repository with the text above. If you want to keep the current content of your `README.md` file, you can append the customized section to it.
-
-Feel free to reach out if you have any more questions or need further assistance!
